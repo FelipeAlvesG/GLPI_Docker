@@ -15,7 +15,7 @@ services:
 
   #GLPI Container
   glpi:
-    image: diouxx/glpi
+    image: demisto/glpi
     container_name : glpi
     hostname: glpi
     ports:
