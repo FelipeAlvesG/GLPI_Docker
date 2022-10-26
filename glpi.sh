@@ -23,5 +23,4 @@ mkdir -p ./var/www/html/glpi \
 chown 472:472 ./var/lib/mysql \
               ./var/lib/mysql
 
-
 docker-compose up -d
