@@ -3,9 +3,12 @@
 
 echo "Atualizando o Servidor"
 apt-get update && apt-get upgrade -y
+#yum check-update
 
 echo "Instalando o Docker"
 curl -fsSL https://get.docker.com | sh
+#systemctl start docker
+#systemctl status docker
 
 echo "Baixando os arquivos do Docker-Compose"
 curl -L https://github.com/docker/compose/releases/download/1.25.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
