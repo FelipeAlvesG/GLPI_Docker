@@ -37,4 +37,9 @@ mkdir -p ./var/www/html/glpi \
 chown 472:472 ./var/lib/mysql \
               ./var/lib/mysql
 
+echo "======================================"
+echo "      Chamando o Docker-Compose"
+echo "======================================"
+
+cd GLPI_Docker
 docker-compose up -d
