@@ -14,6 +14,7 @@ Repositorio para automação da instalção do GLPI com Docker na ultima versão
 
 5º Execute o script que ele fará o resto para você!
 
+6º no arquivo mariadb.env você tem os atributos de configuração do banco de dados, mude conforme sua necessidade.(RECOMENDO MUDAR)
 #
 
 Obs: a imagem docker usada é uma que está disponivel no hub.docker, você pode criar a sua imagem personalizada de acordo com a imagem base original, você quem sabe.
