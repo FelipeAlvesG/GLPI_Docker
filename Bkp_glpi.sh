@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script Feito por Felipe Alves
-
+#Está sendo adequado ainda para funcionar 100%, não está funcional para usar, por enquanto;
 #Entrando na pasta raiz e criando a pasta de backup
 cd /
 mkdir /mnt/backups
